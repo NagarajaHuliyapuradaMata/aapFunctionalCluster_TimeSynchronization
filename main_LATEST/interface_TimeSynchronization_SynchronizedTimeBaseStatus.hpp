@@ -20,6 +20,15 @@
 /******************************************************************************/
 /* TYPEDEFS                                                                   */
 /******************************************************************************/
+class interface_TimeSynchronization_SynchronizedTimeBaseStatus{
+   public:
+      virtual void GetCreationTime          (void) = 0;
+      virtual void GetLeapJump              (void) = 0;
+      virtual void GetSynchronizationStatus (void) = 0;
+/*
+      virtual void GetUserData              (void) = 0;
+*/
+};
 
 /******************************************************************************/
 /* CONSTS                                                                     */
