@@ -20,7 +20,7 @@
 /******************************************************************************/
 /* TYPEDEFS                                                                   */
 /******************************************************************************/
-typedef unsigned char SynchronizedTimeBaseStatus;
+typedef uint8 SynchronizedTimeBaseStatus;
 
 class interface_TimeSynchronization_SynchronizedTimeBaseConsumer{
    public:

@@ -7,6 +7,8 @@
 /******************************************************************************/
 /* #INCLUDES                                                                  */
 /******************************************************************************/
+#include "TypesStd.hpp"
+
 #include "interface_TimeSynchronization_SynchronizedTimeBaseProvider.hpp"
 #include "interface_TimeSynchronization_OffsetTimeBaseProvider.hpp"
 #include "interface_TimeSynchronization_SynchronizedTimeBaseConsumer.hpp"
